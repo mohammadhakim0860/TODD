@@ -1,0 +1,34 @@
+div {
+  border: 1px dashed orange;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border: 1px solid blue;
+  border-radius: 100%;
+  background-image: url("../008_relative-vs-absolute-urls/puppy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+  border-radius: 100%;
+}
+.one {
+  width: 200px;
+  height: 200px;
+  border: 10px dotted red;
+}
+.two {
+  width: 200px;
+  height: 200px;
+  border: 10px double red;
+}
+.three {
+  width: 200px;
+  height: 200px;
+  border: 10px groove red;
+}
