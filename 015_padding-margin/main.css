@@ -1,0 +1,41 @@
+div {
+  height: 100px;
+  width: 100px;
+  border: 1px dashed orange;
+  /* background-color: red; */
+  border-radius: 20px;
+  background-image: url("../008_relative-vs-absolute-urls/puppy.jpg");
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  display: inline-block;
+  /* display: inline; */
+  /* display: none; */
+  /* display: block; */
+  padding: 20px;
+  margin: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+  border-radius: 100%;
+  padding: 20px;
+  margin: 20px;
+}
+.one {
+  width: 200px;
+  height: 200px;
+  border: 10px dotted red;
+}
+.two {
+  width: 200px;
+  height: 200px;
+  border: 10px double red;
+}
+.three {
+  width: 200px;
+  height: 200px;
+  border: 10px groove red;
+}
