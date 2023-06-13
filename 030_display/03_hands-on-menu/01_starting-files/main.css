@@ -1,16 +1,30 @@
 * {
-    border: 1px dashed hotpink;
+  /* border: 1px dashed hotpink; */
 }
 
 html {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
+  /* padding: 10px;
+  margin: 5px; */
 }
 
 li {
-    /*border: 2px solid red;*/
-    border-radius: 50px;
+  border: 2px solid red;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 5px;
+}
+a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+li:hover {
+  background-color: rgb(1, 255, 99);
 }
