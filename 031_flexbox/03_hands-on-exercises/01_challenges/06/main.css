@@ -1,0 +1,18 @@
+body {
+  border: 5px solid red;
+  height: 775px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+div {
+  flex-grow: 1;
+  border: 1px solid red;
+  margin: 1rem;
+  /* width: 150px; */
+  height: 100px;
+  background-color: darkgray;
+  text-align: center;
+}
