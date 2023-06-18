@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+}
+header,
+main {
+  border: 2px solid red;
+}
+
+header {
+  /* width: 30%; */
+  max-width: 400px;
+  border-right: 0;
+}
+
+main {
+  width: 70%;
+}
+
+ul {
+  list-style: none;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+p,
+nav,
+li {
+  margin: 10px;
+  /* border: 1px solid green; */
+}
+
+li {
+  border: 1px solid rgb(6, 99, 99);
+  border-radius: 25px;
+}
+
+a {
+  padding: 10px;
+  color: black;
+  border-radius: 25px;
+  text-decoration: none;
+  /* border: 1px dashed hotpink; */
+  display: inline-block;
+  width: 100%;
+  background-color: aqua;
+  text-align: center;
+}
