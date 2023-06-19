@@ -1,0 +1,13 @@
+ul {
+  display: flex;
+  justify-content: flex-end;
+  background-color: deepskyblue;
+}
+
+li {
+  border: 0;
+}
+
+a {
+  padding: 18px 17px;
+}

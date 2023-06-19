@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  border: 10px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(tropics.jpg);
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-attachment: scroll; */
+}
+
+p {
+  font-size: 8rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}

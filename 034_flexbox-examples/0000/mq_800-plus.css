@@ -1,0 +1,27 @@
+/* body {
+  max-width: 1000px;
+} */
+
+aside {
+  width: 15%;
+  align-self: stretch;
+  /* height: 100px; */
+}
+
+main {
+  width: 70%;
+}
+
+main,
+aside,
+footer {
+  order: 1;
+}
+
+.order {
+  order: 0;
+}
+
+header {
+  order: -1;
+}
