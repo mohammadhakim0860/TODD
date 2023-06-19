@@ -1,0 +1,11 @@
+p,
+img {
+  border: 1px solid red;
+  margin: 20px;
+}
+
+img {
+  float: left;
+  /* clear: both; */
+  overflow: auto;
+}
