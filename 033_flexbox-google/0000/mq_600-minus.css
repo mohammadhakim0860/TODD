@@ -1,0 +1,11 @@
+.pattern1,
+.pattern2,
+.pattern3,
+.container {
+  width: 100%;
+  /* order: 1; */
+}
+
+.pattern1 {
+  height: 150px;
+}
