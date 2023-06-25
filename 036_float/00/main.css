@@ -1,3 +1,12 @@
+body {
+  background-image: url(../01_float_img/01/surf.jpeg);
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  border: 1px solid green;
+  /* height: 100vh; */
+  background-position: center;
+}
+
 p,
 img {
   border: 1px solid red;
