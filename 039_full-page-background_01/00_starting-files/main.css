@@ -1,0 +1,75 @@
+/* font-family: 'Cantarell', sans-serif;
+font-family: 'Kotta One', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-image: url("img/background-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+main {
+  border: 1px solid red;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+section {
+  font-family: "Cantarell", sans-serif;
+}
+
+section h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+  border: 1px solid lime;
+  margin: 2rem 0.5rem;
+}
+
+section h3 {
+  font-size: 1rem;
+}
+
+section p {
+  font-size: 0.7rem;
+  margin: 0.8rem;
+  font-weight: 700;
+}
+
+section button {
+  background-color: inherit;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Cantarell", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem;
+  color: aqua;
+}
+
+section button:hover {
+  cursor: pointer;
+}
