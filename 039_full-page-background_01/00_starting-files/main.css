@@ -73,3 +73,7 @@ section button {
 section button:hover {
   cursor: pointer;
 }
+
+a img {
+  border: 1px solid red;
+}
