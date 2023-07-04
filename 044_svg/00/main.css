@@ -1,0 +1,50 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+} */
+
+/* .svg-container {
+  border: 1px solid green;
+} */
+
+#amaze {
+  width: 200px;
+  height: 200px;
+  fill: red;
+  stroke: blue;
+  stroke-width: 15px;
+  padding: 20px;
+  border: 5px groove gold;
+  display: block;
+  margin: 50px auto;
+}
+
+#amaze:hover {
+  fill: yellow;
+  stroke: green;
+}
+
+#biohazard {
+  width: 200px;
+  height: 200px;
+  fill: deepskyblue;
+  stroke: aqua;
+  display: block;
+  margin: 0 auto;
+}
+
+#biohazard:hover {
+  fill: lime;
+  stroke: red;
+  /* stroke-width: 5px; */
+}
+
+.biohazcont {
+  border: 1px solid red;
+}
+
+.book {
+  color: bisque;
+}
