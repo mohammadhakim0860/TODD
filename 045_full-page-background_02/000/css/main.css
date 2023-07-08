@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Cantarell", sans-serif;
+}
+
+#atf {
+  background-image: url("../img/background-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: whitesmoke;
+}
+
+header {
+  height: 6.5vh;
+  /* border: 1px solid green; */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.527);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav,
+header div {
+  /* border: 1px solid white; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header div svg,
+header div p {
+  margin-left: 10px;
+}
+
+header div:hover {
+  cursor: pointer;
+  color: #9dbb88;
+  /* background-color: dimgray; */
+}
+
+header nav {
+  margin: 0 1rem;
+}
+
+header nav a {
+  padding: 0 1.5rem;
+  color: whitesmoke;
+  fill: whitesmoke;
+  font-size: 0.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header nav a:hover {
+  cursor: pointer;
+  color: #9dbb88;
+  background-color: dimgray;
+  border-radius: 5px;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  height: 93.5vh;
+  /* border: 1px solid pink; */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+main h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 1.5rem;
+}
+
+main h3 {
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+main p {
+  font-size: 1.4rem;
+  margin-top: 0.8rem;
+  line-height: 1.2;
+}
+
+main button {
+  text-transform: uppercase;
+  color: rgb(202, 250, 234);
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 1px solid rgb(202, 250, 234);
+  border-radius: 3px;
+  padding: 0.7rem 1.2rem;
+  background-color: inherit;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  display: none;
+}

@@ -1,0 +1,50 @@
+header div.logo svg {
+  display: none;
+}
+
+header div.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+header nav {
+  display: none;
+}
+
+main {
+  justify-content: space-between;
+}
+
+main h1 {
+  font-size: 2rem;
+  margin-top: 4.5rem;
+}
+
+footer {
+  display: block;
+  font-family: "Cantarell", sans-serif;
+}
+
+li {
+  display: flex;
+  border: 1px solid red;
+  flex-flow: row nowrap;
+  background-color: deepskyblue;
+  color: white;
+}
+
+ul li a {
+  border: 1px solid green;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 7%;
+  font-size: 1.5rem;
+  padding: 10px 7%;
+}
+
+ul li a div {
+  margin-left: 30px;
+}
