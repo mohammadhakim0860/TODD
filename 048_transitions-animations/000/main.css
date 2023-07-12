@@ -1,0 +1,26 @@
+div {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.2s;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+.blue:hover {
+  width: 100%;
+}
+
+.blue:hover .yellow {
+  transform: rotate(720deg);
+}
