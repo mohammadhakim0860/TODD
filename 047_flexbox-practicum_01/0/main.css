@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.349);
+  display: flex;
+  /* flex-flow: row nowrap; */
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.style {
+  flex-grow: 1;
+  /* border: 1px solid blue; */
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-bottom: 2px solid transparent;
+}
+
+.style:hover {
+  cursor: pointer;
+  border-bottom: 2px solid skyblue;
+}

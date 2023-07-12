@@ -1,0 +1,42 @@
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 100px auto;
+  /* justify-content: center; */
+  width: 600px;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+.style {
+  height: 150px;
+  flex-grow: 2;
+}
+
+.counter1,
+.counter3 {
+  background-color: skyblue;
+  flex-grow: 1;
+}
+
+.counter1 {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.counter3 {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.counter1:hover,
+.counter3:hover {
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
