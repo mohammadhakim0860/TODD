@@ -10,27 +10,63 @@ animation-play-state: running
 */
 
 html {
-    font-size: 4vw;
+  font-size: 4vw;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
-    height: 100%
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }
 
 body {
-    color: red;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  color: red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .icon {
-    width: 1em; height: 1em;
-    fill: currentColor;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  animation-name: moving-circle;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+  position: relative;
+}
+
+@keyframes moving-circle {
+  0% {
+    top: 200px;
+    left: 0;
+  }
+  25% {
+    top: 250px;
+    left: 400px;
+    fill: blue;
+  }
+  50% {
+    top: 300px;
+    left: 750px;
+  }
+  75% {
+    top: 250px;
+    left: 1180px;
+    fill: green;
+  }
+  100% {
+    top: 200px;
+    left: 1500px;
+  }
 }
 
 .circle {
-    font-size: 8rem;
+  font-size: 8rem;
 }

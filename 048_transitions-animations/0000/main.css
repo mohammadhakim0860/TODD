@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+svg {
+  fill: currentColor;
+  width: 15em;
+  height: 15em;
+  animation-name: change-color;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+@keyframes change-color {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: yellow;
+  }
+  100% {
+    color: red;
+  }
+}

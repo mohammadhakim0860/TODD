@@ -10,34 +10,39 @@ animation-play-state: running
 */
 
 html {
-    font-size: 1vw;
+  font-size: 1vw;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
-    height: 100%
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }
 
 body {
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
-    font-size: 1rem;
-    animation-name: grow-text;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-    /*animation-iteration-count: infinite;*/
-    /*animation-direction: alternate;*/
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+  font-size: 1rem;
+  animation-name: grow-text;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  /*animation-iteration-count: infinite;*/
+  /*animation-direction: alternate;*/
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
 }
 
 @keyframes grow-text {
-    0% { font-size: 1rem; }
-    100%   { font-size: 17rem; }
+  0% {
+    font-size: 1rem;
+  }
+  100% {
+    font-size: 17rem;
+  }
 }

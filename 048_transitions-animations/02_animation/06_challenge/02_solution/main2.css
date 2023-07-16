@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: red;
+  align-items: center;
+}
+p {
+  font-size: 5rem;
+  border: 1px solid green;
+}
+
+p:hover {
+  animation-name: changing-size;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+
+@keyframes changing-size {
+  0% {
+    font-size: 9rem;
+    transform: rotate(0deg);
+  }
+  50% {
+    font-size: 25rem;
+    transform: rotate(180deg);
+  }
+  100% {
+    font-size: 9rem;
+    transform: rotate(360deg);
+  }
+}
