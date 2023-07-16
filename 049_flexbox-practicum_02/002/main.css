@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid green;
+}
+
+header {
+  width: fit-content;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+header .navbar {
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  color: #16a2d7;
+  font-size: 2vw;
+  padding: 0.7rem 2rem 0.7rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eef3f5;
+}

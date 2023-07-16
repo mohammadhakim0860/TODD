@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  border-radius: 100%;
+  border: 1px solid #d7dbdd;
+  box-shadow: 1px 1px 2px #d7dbdd;
+  /* padding: 5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+  animation-name: rotating-dial;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes rotating-dial {
+  0% {
+    transform: rotate(0deg);
+    left: -500px;
+  }
+  100% {
+    transform: rotate(360deg);
+    left: 500px;
+  }
+}
+
+svg {
+  fill: #bcd2da;
+  width: 25em;
+  height: 25em;
+  border: 1px solid green;
+  border-radius: 100%;
+  padding: 5rem;
+}
+
+button:hover {
+  cursor: pointer;
+}

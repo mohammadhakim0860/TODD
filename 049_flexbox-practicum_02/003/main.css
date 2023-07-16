@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2vw;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  color: #86969c;
+  /* border: 1px solid green; */
+}
+
+main h1 {
+  font-size: 2.5rem;
+  /* border: 1px solid red; */
+  margin-top: 0.5rem;
+}
+
+main h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+svg {
+  width: 4.5em;
+  height: 4.5em;
+  fill: #bcd2da;
+  /* border: 1px solid red; */
+}
+
+button {
+  background-color: deepskyblue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  color: white;
+  cursor: pointer;
+}
