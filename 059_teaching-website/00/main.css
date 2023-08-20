@@ -1,0 +1,151 @@
+/* 
+font-family: 'Indie Flower', cursive;
+font-family: 'Lato', sans-serif;
+ */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/g_s_03_five.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  opacity: 0.75;
+  margin: 1rem;
+  cursor: pointer;
+  height: 0;
+}
+
+header div h5 {
+  color: white;
+  font-weight: 100;
+  margin: 0.6rem 1rem;
+}
+
+header button {
+  background-color: inherit;
+  border: 1px solid white;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  font-family: serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+main h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 4.5rem;
+  color: white;
+  font-weight: 900;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+main h1:hover {
+  cursor: pointer;
+  color: red;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  font-family: "Indie Flower", cursive;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 2rem;
+  text-align: center;
+  line-height: 1;
+}
+
+footer button {
+  background-color: red;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+footer ul {
+  /* border: 1px solid red; */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+  width: 100%;
+  max-width: 1100px;
+}
+
+footer ul a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+footer ul li {
+  text-align: center;
+  width: 7rem;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+}
+
+footer ul li:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#become:hover ~ p {
+  color: red;
+  /* visibility: hidden; */
+  /* display: none; */
+}
+
+/* #become:hover p::after {
+  visibility: visible;
+  content: "Become a center of influence. Allow others to discover your resources then copy them into their collections. You will be able to see how many classes and students have benefited from your resources - you will be influencing the quality of classes around the world.";
+}
+
+#find:hover p {
+  visibility: hidden;
+}
+
+#find:hover p::after {
+  visibility: visible;
+  content: "Find great resources. GreaterCommons is a central repository of course resources.Find the resources that have been used the most, and rated the highest, then copy those resources into your collection and use them in your classes.";
+} */
